@@ -10,12 +10,11 @@ public class HWMain {
 	public static void main(String[] args) {
 		Datas.initializeData();
 		AppController controller = new AppController();
-		boolean flag = GlobalVariables.languageFlag; 	//English First
 		
 		while(true) {
-			AppUI.startScreen(); 
-			int selectNumber = AppFuncs.inputInteger(flag);
-			controller.chooseSystem(selectNumber, flag);
+			AppUI.startScreenKr();	
+			int selectNumber = AppFuncs.inputInteger();
+			controller.chooseSystem(selectNumber);
 		}
 	}
 
