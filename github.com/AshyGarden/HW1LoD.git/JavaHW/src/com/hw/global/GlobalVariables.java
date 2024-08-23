@@ -15,11 +15,15 @@ public interface GlobalVariables {
 	int publishSearchNum = 5200;
 	
 	int bookNameSearch = 5110;
-	int bookNewest = 5120;
-	int bookHighPrice = 5130;
-	int bookLowPrice = 5140;
-	int bookEdit = 5150;
-	int bookDelete = 5160;
+	int bookTerm = 5120;
+	int bookComparePrice = 5130;
+	int bookEdit = 5140;
+	int bookEditName = 5141;
+	int bookEditPrice = 5142;
+	int bookEditPubliser = 5143;
+	int bookEditDate = 5144;
+	int bookEditAll = 5145;
+	int bookDelete = 5150;
 	
 	int terminateNum = 9999;
 }

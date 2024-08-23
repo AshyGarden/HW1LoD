@@ -2,11 +2,13 @@ package com.hw.data;
 
 import java.time.LocalDateTime;
 import java.util.ArrayList;
+import java.util.List;
+
 import com.hw.book.Book;
 
 public class Datas {
 	
-	public static ArrayList<Book> books = new ArrayList<Book>();
+	public static List<Book> books = new ArrayList<Book>();
 	
 	//책 이름 책가격 출판사 입고시간
 	public static void initializeData() {

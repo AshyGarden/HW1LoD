@@ -87,11 +87,10 @@ public class AppUI {
 	public static void bookSearchByNameScreenKr() {
 		System.out.println("\n ======== 🏟 책 이름으로 검색하기==========");
 		System.out.println(" 🏟 5110 - 이름순 조회");
-		System.out.println(" 🏟 5120 - 최신순 조회");
-		System.out.println(" 🏟 5130 - 비싼 가격순 조회");
-		System.out.println(" 🏟 5140 - 싼 가격순 조회");
-		System.out.println(" 🏟 5150 - 책 정보수정");
-		System.out.println(" 🏟 5160 - 책 삭제하기");
+		System.out.println(" 🏟 5120 - 출판순 조회");
+		System.out.println(" 🏟 5130 - 가격순 조회");
+		System.out.println(" 🏟 5140 - 책 정보수정");
+		System.out.println(" 🏟 5150 - 책 삭제하기");
 		System.out.println(" 🏃‍♀️ 9    - 이전 페이지로 돌아가기");
 		System.out.println("--------------------------------------");
 		System.out.print(">>>"); 
